@@ -13,12 +13,13 @@
     <div class="cont">
         
         <div class="ingreso">
-        <button name="bingreso"> <a href="/citas/registro.html">INGRESO 🧑</a></div>
+        <button name="bingreso"> <a href="javascript:abrir1()">INGRESO 🧑</a></div>
         </div>
     
         <div class="registro">
             <button name="bregistro">
                 <a href="javascript:abrir()">REGISTRO</a>
+                </button>
             </div>
         </div>
     
@@ -40,12 +41,32 @@
         
         <div class="medico">
            <button class="medicor" name="medico">
-              <a href="registromedico.html">Medico</a> 
+              <a href="registromedico.html">
+                <img class="medico" src="/img/doctor.png">
+                    Medico</a> 
            
            <button class="pacienter" name="paciente">
-              <a href="registro.html">Paciente</a> 
+              <a href="registro.html">
+                <img class="paciente" src="/img/paciente.png">
+                Paciente</a> 
            </div>
          </div>
+
+         <div class="ventana" id="vingreso">
+            <div class="cerrar"><a href="javascript:cerrar()"><div>X</div></a> </div> 
+            
+            <div class="medico">
+               <button class="medicor" name="medico">
+                  <a href="iniciomedicos.html">
+                    <img class="medico" src="/img/doctor.png">
+                        Medico</a> 
+               
+               <button class="pacienter" name="paciente">
+                  <a href="iniciopaciente.html">
+                    <img class="paciente" src="/img/paciente.png">
+                    Paciente</a> 
+               </div>
+             </div>
 </main>   
 </body>
 </html>

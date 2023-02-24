@@ -37,6 +37,23 @@ body{
 
 
     }
+    a{
+        text-decoration: none;
+        color: #eae1e1;
+    }
+    .medico {
+        
+        width: 60%;
+        border-radius: 50%;
+        
+    }
+    
+    .paciente {
+        
+        width: 60%;
+        border-radius: 50%;
+        
+    }
     header{
 
         margin: 0px auto;
@@ -44,8 +61,8 @@ body{
         flex-direction: row;
         width: 100%;
         font-style: italic;
-        padding-right:0;
-        padding-left: 80%;
+        padding-right: 10%;;
+        padding-left: 70%;
         align-items: right;
         
         
@@ -57,11 +74,19 @@ body{
         border-radius: 10px;
         border-color: lightblue;
         margin-inline: 5px;
-        width: 100px;
-    }.ventana
+        width: 200px;
+        height: 60px;
+        padding-right: 10%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 150%;
+
+    }
+    .ventana
     {
+        margin: 0;
       background: linear-gradient(to right, rgb(77, 77, 234), rgb(137, 211, 227));
         margin: 0;
+      align-items: center;
       width: 30%;
       color:rgb(239, 231, 231);
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -69,13 +94,12 @@ body{
       text-align: center;
       text-decoration: none;
       padding: 33px;
-      min-height: 250px;
+      min-height: 50px;
       border-radius: 20px;
       position: absolute;
       left: 34%;
       top: 35%;
       display: none;
-      align-items: center;
     
     }
     
